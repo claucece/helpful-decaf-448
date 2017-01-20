@@ -27,7 +27,7 @@ snv sc_halve (
 }
 
 //function for exposing (on the same file)
-void api_ns(new_halve) (const scalar_t s, const scalar_t t) {
+void API_NS(new_halve) (const scalar_t s, const scalar_t t) { //don't forget the 'API_NS'
 
     scalar_t x, y;
     x->limb[13] = 314;
