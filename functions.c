@@ -1,6 +1,10 @@
 //a pretty useful 'for', already defined in the code
 #define FOR_LIMB(i,op) { unsigned int i=0; for (i=0; i<NLIMBS; i++)  { op; }}
 
+//other lovely for
+#define FOR_LIMB_U(i,op) { unsigned int i=0; for (i=0; i<DECAF_448_LIMBS; i++)  { op; }}
+
+
 // THE STRUCTURES
 
 // Galois field struct
