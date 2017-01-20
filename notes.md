@@ -49,7 +49,7 @@ All tests are located on test folder. The important one is `test_decaf.cxx`.
 Test are written in C++, so, in order to use a function on it, you will need to
 expose it to C header and C++ header.
 
-For doing a test, it is always you to do this order:
+For doing a test, it is always good to do this order:
 
 1. Change the file: `src/decaf_fast.c`
 2. Expose the function to the c header: `include/decaf.h`
