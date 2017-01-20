@@ -10,11 +10,20 @@ On Decaf branch:
 For building the code, run `make`. If you want to run a stripped down version of
 the library, run `make lib`. To run the tests run `make test`.
 
+If you see this warning
+`#warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"`,
+change all places where `_BSD_SOURCE` and `_SVID_SOURCE` (if any) to
+`_DEFAULT_SOURCE`. For further errors, regarding this, refer to
+[here](http://stackoverflow.com/questions/29201515/what-does-d-default-source-do)
+
 On Master branch:
 
 For building the code, run `make build/goldilocks.so`.
 
 ## Architecture
+
+Check your arch by running `uname -m` (this should work for Linux too). I will
+give you as out put something like this `x86_64`.
 
 On Decaf branch:
 
